@@ -127,15 +127,7 @@ const MobileMenu: FC<MobileMenuProps> = ({}) => {
   return (
     <div className='flex lg:hidden items-center fixed top-2 right-0 m-[-1px] z-20'>
         <React.Fragment key='left'>
-          <Button onClick={toggleDrawer('left', true)}>
-          {/* <Image
-                className="relative"
-                src="/images/mobile_menu.png"
-                alt="Mobile menu"
-                width={30}
-                height={30}
-                priority
-            /> */}
+          <Button onClick={toggleDrawer('left', true)} name='mobile_button'>
             <FaBars className='text-base'/>
           </Button>
           <SwipeableDrawer
