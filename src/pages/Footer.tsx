@@ -50,6 +50,9 @@ const Footer: FC<FooterProps> = ({}) => {
                     <button>Contact</button>
                 </Link>
             </div>
+            <div className='text-teal-100 text-sm'>
+                © 2023 Tanjona Rajoelison
+            </div>
         </div>
     )
 }
