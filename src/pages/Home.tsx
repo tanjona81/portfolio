@@ -1,4 +1,3 @@
-import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Element, Link } from 'react-scroll';
 
@@ -20,8 +19,6 @@ const Home =() => {
         <Element name='home' className='flex flex-col md:flex-row md:justify-between items-center justify-center w-[80%] h-screen 
         overflow-hidden md:gap-0 gap-4'>
             <div className='flex items-center justify-center w-full'>
-            {/* <img src='/place.png' alt='Tanjona pick' className='h-[65%]'></img> */}
-                {/* <img src='/1_decoupe.png' alt='Tanjona pick' className='h-[65%]'></img> */}
                 <img src='/place1.png' alt='Tanjona pick' className=''></img>
             </div>
             <div className='flex flex-col justify-center items-center gap-4 w-full'>

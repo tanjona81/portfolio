@@ -127,16 +127,6 @@ export default function Skills(){
                                     <span className='text-slate-300 font-light'>Intermediate</span>
                                 </div>
                             </div>
-                            {/* <div className='flex flex-col'>
-                                <div className='flex items-center gap-2'>
-                                    <AiFillCheckCircle className='text-slate-100'/>
-                                    <span className='text-slate-100'>MongoDB</span>
-                                </div>
-                                <div className='flex items-center gap-2'>
-                                    <AiFillCheckCircle className='opacity-0'/>
-                                    <span className='text-slate-300 font-light'>Intermediate</span>
-                                </div>
-                            </div> */}
                         </div>
                     </section>
                 </div>

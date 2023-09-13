@@ -8,8 +8,8 @@ interface AboutProps {
 
 const About: FC<AboutProps> = ({}) => {
    return (
-        <Element name='about' className='flex flex-col gap-10 md:gap-28 items-center justify-center md:w-[80%] w-[90%] md:h-[100svh] h-auto'>
-            {/* <h1 className='text-3xl md:text-4xl h-12 text-slate-100 w-24 border-b-4 border-amber-500'>About</h1> */}
+        <Element name='about' className='flex flex-col gap-10 md:gap-28 items-center justify-center md:w-[80%] w-[90%] 
+        md:h-[100svh] h-auto'>
             <H1Title>About Me</H1Title>
             <div className='flex flex-col text-slate-100 gap-3'>
                 <p>Hello, I'm Tanjona Rajoelison, from Madagascar, a dedicated FullStack and Mobile developer with a passion for crafting digital 

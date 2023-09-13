@@ -147,9 +147,6 @@ const Contact: FC<ContactProps> = ({}) => {
                             },
                         }}
                     />
-                    {/* <input type='text' placeholder='Your name' name='name' className='w-full'/> */}
-                    {/* <input type='text' placeholder='Your email' name='email' className='w-full'/> */}
-                    {/* <textarea rows={10} placeholder='Your messages' name='message' className='w-full'></textarea> */}
                     <button className='bg-amber-500 shadow-lg shadow-amber-500/50 p-6 h-14 rounded-3xl font-semibold
                     hover:scale-90 hover:ease-in-out duration-300 flex items-center justify-center gap-2 group'>
                         
