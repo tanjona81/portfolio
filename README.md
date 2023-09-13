@@ -13,8 +13,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 ## My contact
 
-trajoelsion81@gmail.com<br/>
-Facebook: Tanjona Rajoelison ()<br/>
-LinkedIn: Tanjona Rajoeison ()<br/>
+Email: trajoelsion81@gmail.com<br/>
+Facebook: Tanjona Rajoelison (https://web.facebook.com/tanjona.rajoelison.9)<br/>
+LinkedIn: Tanjona Rajoeison (https://www.linkedin.com/in/tanjona-rajoelison-19b04524b)<br/>
 WhatsApp: +261 34 37 413 10<br/>
 Tel: +261 32 81 035 27
