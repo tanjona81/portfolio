@@ -107,7 +107,7 @@ const MobileMenu: FC<MobileMenuProps> = ({}) => {
                     <ListItemIcon>
                       {rep.icon}
                     </ListItemIcon>
-                    <ListItemText primary={rep.name} />
+                    <ListItemText primary={rep.name} className='w-48'/>
                   </ListItemButton>
                 </Link>
               </ListItem>
