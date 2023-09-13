@@ -19,7 +19,7 @@ const Home =() => {
         <Element name='home' className='flex flex-col md:flex-row md:justify-between items-center justify-center w-[80%] h-screen 
         overflow-hidden md:gap-0 gap-4'>
             <div className='flex items-center justify-center w-full'>
-                <img src='/place1.png' alt='Tanjona pick' className=''></img>
+                <img src='/place1.png' alt='Tanjona pick' className='w-full'></img>
             </div>
             <div className='flex flex-col justify-center items-center gap-4 w-full'>
                 <h2 className='text-lg md:text-xl text-slate-100'>Hello, I am </h2>
@@ -34,13 +34,14 @@ const Home =() => {
                     hover:bg-amber-500 hover:border-amber-500 hover:scale-110 ease-in-out duration-300'
                     onClick={()=>{
                         DownloadExistingPDF();
-                    }}>
+                    }}
+                    name='download_cv'>
                         Download CV
                     </button>
-                    <Link to='contact'smooth={true} duration={500}>
+                    <Link to='contact'smooth={true} duration={500} name='link_contact'>
                         <button className='flex group items-center justify-center border-2 p-4 rounded-3xl bg-slate-100 
                         text-black font-bold hover:bg-amber-500 hover:border-amber-500 hover:scale-110 ease-in-out 
-                        duration-300 gap-2'>
+                        duration-300 gap-2' name='contact'>
                             Contact Me
                             <span className='group-hover:rotate-90 duration-300'><HiArrowNarrowRight/></span>
                         </button>

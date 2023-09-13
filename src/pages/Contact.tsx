@@ -76,10 +76,11 @@ const Contact: FC<ContactProps> = ({}) => {
                         <span className='text-2xl text-center'>Call Me</span>
                         <span className='flex justify-center items-center hover:scale-110 duration-300 gap-2 
                             hover:text-amber-500 hover:ease-in'>
-                                <button className='flex items-center gap-2 text-lg'
+                            <button className='flex items-center gap-2 text-lg'
                             onClick={()=>{
                                 handlePhoneIconClickOrange();
-                            }}>
+                            }}
+                            name='call_orange'>
                                 <BsFillTelephoneFill/>
                                 +261 32 81 035 27
                             </button>
@@ -89,7 +90,8 @@ const Contact: FC<ContactProps> = ({}) => {
                             <button className='flex items-center gap-2 text-lg'
                             onClick={()=>{
                             handlePhoneIconClickTelma();
-                            }}>
+                            }}
+                            name='call_telma'>
                                 <BsFillTelephoneFill/>
                                 +261 34 37 413 10
                             </button>
@@ -148,8 +150,8 @@ const Contact: FC<ContactProps> = ({}) => {
                         }}
                     />
                     <button className='bg-amber-500 shadow-lg shadow-amber-500/50 p-6 h-14 rounded-3xl font-semibold
-                    hover:scale-90 hover:ease-in-out duration-300 flex items-center justify-center gap-2 group'>
-                        
+                    hover:scale-90 hover:ease-in-out duration-300 flex items-center justify-center gap-2 group'
+                    name='collaborate'>
                         Let's collaborate
                         <span className='rotate-45 group-hover:-rotate-12 duration-300'><BsSendFill/></span>
                     </button>

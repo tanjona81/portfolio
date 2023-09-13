@@ -73,12 +73,13 @@ const Works: FC<WorksProps> = ({}) => {
                         <button className='items-center justify-center gap-2 border rounded-md p-2 
                         border-slate-800 hover:skew-x-6 duration-300 hover:ease-in-out bg-slate-800 
                         text-slate-200 hover:scale-95 flex 2xl:hidden 2xl:group-hover:flex text-2xl'
-                        onClick={handleClickOpen('paper')}>
+                        onClick={handleClickOpen('paper')}
+                        name='open'>
                             Details 
                             <span><HiArrowNarrowRight/></span>
                         </button>
                     </div>
-                    <p className='font-light'>Type: Website and Modile application</p>
+                    <p className='font-medium'>Type: Website and Modile application</p>
                     <p className='font-medium'>Infrastructure problem reporting</p>
                     <Dialog
                         open={open_infrastructure}
@@ -111,7 +112,7 @@ const Works: FC<WorksProps> = ({}) => {
                         </DialogContentText>
                         </DialogContent>
                         <DialogActions>
-                        <button onClick={handleClose}>Close</button>
+                        <button onClick={handleClose} name='close'>Close</button>
                         </DialogActions>
                     </Dialog>
                 </div>
@@ -122,12 +123,13 @@ const Works: FC<WorksProps> = ({}) => {
                         <button className='items-center justify-center gap-2 border rounded-md p-2 
                         border-slate-800 hover:skew-x-6 duration-300 hover:ease-in-out bg-slate-800 
                         text-slate-200 hover:scale-95 flex 2xl:hidden 2xl:group-hover:flex text-2xl'
-                        onClick={handleClickOpen_restaurant('paper')}>
+                        onClick={handleClickOpen_restaurant('paper')}
+                        name='open_r'>
                             Details 
                             <span><HiArrowNarrowRight/></span>
                         </button>
                     </div>
-                    <p className='font-light'>Type: Windows Application</p>
+                    <p className='font-medium'>Type: Windows Application</p>
                     <p className='font-medium'>Restaurant management</p>
                     <Dialog
                         open={open_restaurant}
@@ -155,7 +157,7 @@ const Works: FC<WorksProps> = ({}) => {
                         </DialogContentText>
                         </DialogContent>
                         <DialogActions>
-                        <button onClick={handleClose_r}>Close</button>
+                        <button onClick={handleClose_r} name='close_r'>Close</button>
                         </DialogActions>
                     </Dialog>
                 </div>
@@ -166,12 +168,13 @@ const Works: FC<WorksProps> = ({}) => {
                         <button className='items-center justify-center gap-2 border rounded-md p-2 
                         border-slate-800 hover:skew-x-6 duration-300 hover:ease-in-out bg-slate-800 
                         text-slate-200 hover:scale-95 flex 2xl:hidden 2xl:group-hover:flex text-2xl'
-                        onClick={handleClickOpen_a('paper')}>
+                        onClick={handleClickOpen_a('paper')}
+                        name='open_a'>
                             Details 
                             <span><HiArrowNarrowRight/></span>
                         </button>
                     </div>
-                    <p className='font-light'>Type: Mobile application</p>
+                    <p className='font-medium'>Type: Mobile application</p>
                     <p className='font-medium'>Audit management</p>
                     <Dialog
                         open={open_audit}
@@ -204,7 +207,7 @@ const Works: FC<WorksProps> = ({}) => {
                         </DialogContentText>
                         </DialogContent>
                         <DialogActions>
-                        <button onClick={handleClose_a}>Close</button>
+                        <button onClick={handleClose_a} name='close_a'>Close</button>
                         </DialogActions>
                     </Dialog>
                 </div>
@@ -215,12 +218,13 @@ const Works: FC<WorksProps> = ({}) => {
                         <button className='items-center justify-center gap-2 border rounded-md p-2 
                         border-slate-800 hover:skew-x-6 duration-300 hover:ease-in-out bg-slate-800 
                         text-slate-200 hover:scale-95 flex 2xl:hidden 2xl:group-hover:flex text-2xl'
-                        onClick={handleClickOpen_e('paper')}>
+                        onClick={handleClickOpen_e('paper')}
+                        name='open_e'>
                             Details 
                             <span><HiArrowNarrowRight/></span>
                         </button>
                     </div>
-                    <p className='font-light'>Type: Website</p>
+                    <p className='font-medium'>Type: Website</p>
                     <p className='font-medium'>E-commerce</p>
                     <Dialog
                         open={open_commerce}
@@ -250,7 +254,7 @@ const Works: FC<WorksProps> = ({}) => {
                         </DialogContentText>
                         </DialogContent>
                         <DialogActions>
-                        <button onClick={handleClose_e}>Close</button>
+                        <button onClick={handleClose_e} name='close_e'>Close</button>
                         </DialogActions>
                     </Dialog>
                 </div>

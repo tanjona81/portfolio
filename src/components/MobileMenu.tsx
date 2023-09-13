@@ -108,7 +108,7 @@ const MobileMenu: FC<MobileMenuProps> = ({}) => {
           rep.name === 'divider' 
             ? <Divider key={`divider-${index}`} />
             : <ListItem key={rep.name} disablePadding className='hover:bg-amber-500 text-white'>
-                <Link to={rep.lien} smooth={true} duration={500} onClick={()=>{
+                <Link to={rep.lien} smooth={true} duration={500} name={rep.lien} onClick={()=>{
                   setState({ ...state, left: false });
                 }}>
                   <ListItemButton>

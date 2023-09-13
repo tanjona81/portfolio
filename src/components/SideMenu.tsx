@@ -50,7 +50,7 @@ const SideMenu: FC<SideMenuProps> = ({}) => {
                 <li>
                     <Social_menu color='bg-green-600'>
                         <button className='flex justify-between items-center w-full text-gray-300'
-                        onClick={()=>(handlePhoneIconClick())}>
+                        onClick={()=>(handlePhoneIconClick())} name='b_call'>
                             Call <BsFillTelephoneFill size={30} />
                         </button>
                     </Social_menu>
@@ -58,7 +58,7 @@ const SideMenu: FC<SideMenuProps> = ({}) => {
                 <li>
                     <Link to='contact'smooth={true} duration={500}>
                         <Social_menu color='bg-[#565f69]'>
-                            <button className='flex justify-between items-center w-full text-gray-300'>
+                            <button className='flex justify-between items-center w-full text-gray-300' name='b_contact'>
                                 Contact me <HiOutlineMail size={30} />
                             </button>
                         </Social_menu>

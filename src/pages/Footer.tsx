@@ -31,23 +31,23 @@ const Footer: FC<FooterProps> = ({}) => {
             </div>
             
             <div className='flex gap-4 text-teal-100 md:flex'>
-                <Link to='home' smooth={true} duration={500}>
-                    <button>Home</button>
+                <Link to='home' smooth={true} duration={500} name='l_home'>
+                    <button name='b_home'>Home</button>
                 </Link>
-                <Link to='about'smooth={true} duration={500}>
-                    <button>About</button>
+                <Link to='about'smooth={true} duration={500} name='l_about'>
+                    <button name='b_about'>About</button>
                 </Link>
-                <Link to='resume'smooth={true} duration={500}>
-                    <button>Resume</button>
+                <Link to='resume'smooth={true} duration={500} name='l_resume'>
+                    <button name='b_resume'>Resume</button>
                 </Link>
-                <Link to='skills'smooth={true} duration={500}>
-                    <button>Skills</button>
+                <Link to='skills'smooth={true} duration={500} name='l_works'>
+                    <button name='b_skills'>Skills</button>
                 </Link>
-                <Link to='works'smooth={true} duration={500}>
-                    <button>Works</button>
+                <Link to='works'smooth={true} duration={500} name='l_works'>
+                    <button name='b_works'>Works</button>
                 </Link>
-                <Link to='contact'smooth={true} duration={500}>
-                    <button>Contact</button>
+                <Link to='contact'smooth={true} duration={500} name='l_contact'>
+                    <button name='b_contact'>Contact</button>
                 </Link>
             </div>
             <div className='text-teal-100 text-sm'>

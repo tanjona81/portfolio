@@ -26,7 +26,7 @@ const About: FC<AboutProps> = ({}) => {
                     potential for technology to shape the future in exciting and innovative ways.</p>
                 <p>Thank you for visiting my portfolio. Feel free to explore my work, and if you'd like to connect or collaborate, 
                     don't hesitate to reach out. You can find my <Link to='contact'smooth={true} duration={500}>
-                    <button className='text-amber-500'>contact</button></Link> information below.</p>
+                    <button className='text-amber-500' name='b_contact'>contact</button></Link> information below.</p>
             </div>
             
         </Element>

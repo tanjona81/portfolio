@@ -46,7 +46,7 @@ const Resume: FC<ResumeProps> = ({}) => {
                     <section className='gap-2'>
                         <p className='font-light'>AUG. 2022 - NOV. 2022</p>
                         <button className='text-slate-900 text-lg'
-                        onClick={handleClickOpen('paper')}>
+                        onClick={handleClickOpen('paper')} name='open'>
                             Intern Laravel Developer
                         </button>
                         <p className='font-light'>INSTAT Madagascar</p>
@@ -80,7 +80,7 @@ const Resume: FC<ResumeProps> = ({}) => {
                         </DialogContentText>
                         </DialogContent>
                         <DialogActions>
-                        <Button onClick={handleClose}>Close</Button>
+                        <Button onClick={handleClose} name='close'>Close</Button>
                         </DialogActions>
                     </Dialog>
                 </div>
