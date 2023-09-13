@@ -9,7 +9,7 @@ Thank you for your comprehension and your attention.
 
 ## Link
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This is the link of my portfolio website: https://tanjona-portfolio-ifvgumn97-tanjona81.vercel.app/
 
 ## My contact
 
