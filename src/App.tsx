@@ -10,7 +10,7 @@ import Footer from './pages/Footer';
 
 function App() {
   return (
-      <div className="flex items-center flex-col justify-center bg-slate-900 gap-2 overflow-hidden">
+      <div className="flex items-center flex-col justify-center bg-slate-900 gap-4 lg:gap-2">
         <Navbar/>
         <Home/>
         <About/>

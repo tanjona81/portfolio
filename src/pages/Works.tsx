@@ -62,15 +62,15 @@ const Works: FC<WorksProps> = ({}) => {
     }, [open_infrastructure]);
 
    return (
-        <Element name='works' className='flex flex-col gap-10 md:gap-10 items-center justify-center md:w-[80%] w-[90%] 
-        md:h-[100vh] h-auto'>
+        <Element name='works' className='flex flex-col gap-10 lg:gap-10 items-center justify-center lg:w-[80%] w-[90%] 
+        lg:h-[100vh] h-auto'>
             <H1Title>My Works</H1Title>
-            <div className='grid md:grid-cols-2 gap-6'>
-                <div className="flex flex-col items-center p-4 md:justify-self-end justify-self-center border border-slate-500 rounded-2xl 
+            <div className='grid lg:grid-cols-2 gap-6'>
+                <div className="flex flex-col items-center p-4 lg:justify-self-end justify-self-center border border-slate-500 rounded-2xl 
                 bg-slate-500 gap-2 w-full">
                     <div className="bg-[url('assets/images/p1.jpg')] group w-full h-44 bg-cover bg-center bg-no-repeat border 
                     border-slate-500 shadow-lg rounded-2xl flex items-center justify-center">
-                        <button className='items-center justify-center gap-2 border rounded-md p-2 
+                        <button className='items-center justify-center gap-2 border rounded-lg p-2 
                         border-slate-800 hover:skew-x-6 duration-300 hover:ease-in-out bg-slate-800 
                         text-slate-200 hover:scale-95 flex 2xl:hidden 2xl:group-hover:flex text-2xl'
                         onClick={handleClickOpen('paper')}
@@ -116,11 +116,11 @@ const Works: FC<WorksProps> = ({}) => {
                         </DialogActions>
                     </Dialog>
                 </div>
-                <div className='flex flex-col items-center p-4 border md:justify-self-start justify-self-center 
+                <div className='flex flex-col items-center p-4 border lg:justify-self-start justify-self-center 
                 border-slate-500 rounded-2xl bg-slate-500 gap-2 w-[100%]'>
                     <div className="bg-[url('assets/images/p3.jpg')] group w-full h-44 bg-cover bg-center bg-no-repeat border 
                     border-slate-500 shadow-lg rounded-2xl flex items-center justify-center">
-                        <button className='items-center justify-center gap-2 border rounded-md p-2 
+                        <button className='items-center justify-center gap-2 border rounded-lg p-2 
                         border-slate-800 hover:skew-x-6 duration-300 hover:ease-in-out bg-slate-800 
                         text-slate-200 hover:scale-95 flex 2xl:hidden 2xl:group-hover:flex text-2xl'
                         onClick={handleClickOpen_restaurant('paper')}
@@ -161,11 +161,11 @@ const Works: FC<WorksProps> = ({}) => {
                         </DialogActions>
                     </Dialog>
                 </div>
-                <div className='flex flex-col items-center p-4 justify-self-center md:justify-self-end border border-slate-500 rounded-2xl 
+                <div className='flex flex-col items-center p-4 justify-self-center lg:justify-self-end border border-slate-500 rounded-2xl 
                 bg-slate-500 gap-2 w-[100%]'>
                     <div className="bg-[url('assets/images/p2.png')] group w-full h-44 bg-cover bg-center bg-no-repeat border 
                     border-slate-500 shadow-lg rounded-2xl flex items-center justify-center">
-                        <button className='items-center justify-center gap-2 border rounded-md p-2 
+                        <button className='items-center justify-center gap-2 border rounded-lg p-2 
                         border-slate-800 hover:skew-x-6 duration-300 hover:ease-in-out bg-slate-800 
                         text-slate-200 hover:scale-95 flex 2xl:hidden 2xl:group-hover:flex text-2xl'
                         onClick={handleClickOpen_a('paper')}
@@ -211,11 +211,11 @@ const Works: FC<WorksProps> = ({}) => {
                         </DialogActions>
                     </Dialog>
                 </div>
-                <div className='flex flex-col items-center p-4 justify-self-center md:justify-self-start border border-slate-500 rounded-2xl bg-slate-500 gap-2 
+                <div className='flex flex-col items-center p-4 justify-self-center lg:justify-self-start border border-slate-500 rounded-2xl bg-slate-500 gap-2 
                 w-[100%]'>
                     <div className="bg-[url('assets/images/p4.png')] group w-full h-44 bg-cover bg-center bg-no-repeat border 
                     border-slate-500 shadow-lg rounded-2xl flex items-center justify-center">
-                        <button className='items-center justify-center gap-2 border rounded-md p-2 
+                        <button className='items-center justify-center gap-2 border rounded-lg p-2 
                         border-slate-800 hover:skew-x-6 duration-300 hover:ease-in-out bg-slate-800 
                         text-slate-200 hover:scale-95 flex 2xl:hidden 2xl:group-hover:flex text-2xl'
                         onClick={handleClickOpen_e('paper')}

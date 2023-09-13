@@ -21,11 +21,11 @@ const Contact: FC<ContactProps> = ({}) => {
     };
 
    return (
-        <Element name='contact' className='flex flex-col gap-10 md:gap-28 items-center justify-center md:w-[60%] w-[90%] 
-        md:h-[100svh] h-auto'>
+        <Element name='contact' className='flex flex-col gap-10 lg:gap-28 items-center justify-center lg:w-[60%] w-[90%] 
+        lg:h-[100svh] h-auto'>
             <H1Title>Let's work together</H1Title>
-            <div className='flex flex-col md:flex-row w-full items-center justify-center gap-10'>
-                <div className='flex flex-col md:w-[35%] w-full justify-center items-start 
+            <div className='flex flex-col lg:flex-row w-full items-center justify-center gap-10'>
+                <div className='flex flex-col lg:w-[35%] w-full justify-center items-start 
                 bg-slate-900 text-slate-200 gap-5'>
                     <div className='flex flex-col border-4 border-amber-500 rounded-3xl p-4 gap-3 w-full justify-center items-center'>
                         <span className='text-2xl text-center'>Check My Profile</span>
@@ -99,9 +99,9 @@ const Contact: FC<ContactProps> = ({}) => {
                     </div>
                 </div>
                 
-                {/* <div className='flex flex-col md:w-[65%] w-full justify-center items-center gap-4 max-w-[700px]'> */}
+                {/* <div className='flex flex-col lg:w-[65%] w-full justify-center items-center gap-4 max-w-[700px]'> */}
                 <form action='https://getform.io/f/f1c0736c-f10c-48fb-9328-263100550d78' method='POST'
-                className='flex flex-col md:w-[65%] w-full justify-center items-center gap-4 max-w-[700px]'>
+                className='flex flex-col lg:w-[65%] w-full justify-center items-center gap-4 max-w-[700px]'>
                     <TextField 
                         name='name'
                         id="outlined-basic" 

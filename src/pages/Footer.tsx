@@ -9,7 +9,7 @@ interface FooterProps {
 
 const Footer: FC<FooterProps> = ({}) => {
    return (
-        <div className='h-[30vh] flex flex-col bg-slate-950 w-full justify-center items-center gap-6 overflow-hidden'>
+        <div className='h-auto p-4 lg:p-0 lg:h-[30vh] flex flex-col bg-slate-950 w-full justify-center items-center gap-6 overflow-hidden'>
             <p className='text-3xl text-teal-100'>Tanjona Rajoelison</p>
             <div className='flex gap-4'>
                 <a href="https://www.linkedin.com/in/tanjona-rajoelison-19b04524b" target='_blank' rel="nofollow" 
@@ -30,7 +30,7 @@ const Footer: FC<FooterProps> = ({}) => {
                 </a>
             </div>
             
-            <div className='flex gap-4 text-teal-100 md:flex'>
+            <div className='flex lg:gap-4 gap-2 text-teal-100 lg:flex'>
                 <Link to='home' smooth={true} duration={500} name='l_home'>
                     <button name='b_home'>Home</button>
                 </Link>

@@ -37,9 +37,9 @@ const Resume: FC<ResumeProps> = ({}) => {
   }, [open]);
 
    return (
-        <Element name='resume' className='flex flex-col gap-10 md:gap-28 items-center justify-center md:w-[80%] w-[100%] md:h-[100svh] h-auto'>
+        <Element name='resume' className='flex flex-col gap-10 lg:gap-28 items-center justify-center lg:w-[80%] w-[100%] lg:h-[100svh] h-auto'>
             <H1Title>My Background</H1Title>
-            <div className='flex md:flex-row flex-col justify-center md:gap-12 gap-8 md:w-[80%] w-full px-6'>
+            <div className='flex lg:flex-row flex-col justify-center lg:gap-12 gap-8 lg:w-[80%] w-full px-6'>
                 <div className='flex flex-col w-full rounded-xl bg-amber-500 bg-opacity-80 hover:bg-opacity-95 duration-300
                  p-4 gap-5'>
                     <h2 className='font-bold text-lg text-center text-slate-900'>EXPERIENCE</h2>

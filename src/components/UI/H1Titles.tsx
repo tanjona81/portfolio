@@ -3,7 +3,7 @@ import * as React from 'react'
 import { cn } from '../../lib/Utils'
 
 export const h1Variants = cva(
-    'text-3xl md:text-4xl h-12 text-slate-100 border-b-4 border-amber-500',
+    'text-2xl lg:text-4xl h-12 text-slate-100 border-b-4 border-amber-500',
   )
 
 interface H1TitleProps extends React.HTMLAttributes<HTMLHeadingElement>,VariantProps<typeof h1Variants>{

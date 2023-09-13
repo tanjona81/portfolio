@@ -4,10 +4,10 @@ import { AiFillCheckCircle } from 'react-icons/ai';
 
 export default function Skills(){
     return (
-        <Element name='skills' className='flex flex-col gap-10 md:gap-28 items-center justify-center md:w-[100%] w-[90%] 
-        md:h-[100svh] h-auto'>
+        <Element name='skills' className='flex flex-col gap-10 lg:gap-28 items-center justify-center lg:w-[100%] w-[90%] 
+        lg:h-[100svh] h-auto'>
             <H1Title>My Skills</H1Title>
-            <div className='flex md:w-[80%] w-full justify-center md:gap-12 gap-8 md:flex-row flex-col'>
+            <div className='flex lg:w-[80%] w-full justify-center lg:gap-12 gap-8 lg:flex-row flex-col'>
                 <div className='flex flex-col w-full rounded-3xl bg-slate-950 border-slate-900 border-2 bg-opacity-80 hover:bg-opacity-95 duration-300
                  p-4 gap-5'>
                     <h2 className='font-bold text-amber-500 text-center text-lg'>Backend Developer</h2>

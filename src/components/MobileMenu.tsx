@@ -62,14 +62,6 @@ const liens : Lien[] =[
       lien:'contact',
       icon: <AccountCircleIcon color="primary"/>
     },
-    // {
-    //     name:'divider'
-    // }
-    // {
-    //     name:'Inscription',
-    //     lien:'/d',
-    //     icon: <AppRegistrationIcon color="primary"/>
-    // },
 ]
 
 const MobileMenu: FC<MobileMenuProps> = ({}) => {
