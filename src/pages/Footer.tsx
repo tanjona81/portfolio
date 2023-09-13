@@ -12,19 +12,19 @@ const Footer: FC<FooterProps> = ({}) => {
         <div className='h-[30vh] flex flex-col bg-slate-950 w-full justify-center items-center gap-6 overflow-hidden'>
             <p className='text-3xl text-teal-100'>Tanjona Rajoelison</p>
             <div className='flex gap-4'>
-                <a href="https://www.linkedin.com/in/tanjona-rajoelison-19b04524b" target='blank' 
+                <a href="https://www.linkedin.com/in/tanjona-rajoelison-19b04524b" target='_blank' rel="nofollow" 
                 className='flex items-center gap-2 text-lg'>
                     <FaLinkedin size={30} className='text-teal-100'/>
                 </a>
-                <a href="https://github.com/tanjona81" target='blank' 
+                <a href="https://github.com/tanjona81" target='_blank' rel="nofollow" 
                 className='flex items-center gap-2 text-lg'>
                     <BsGithub size={30} className='text-teal-100'/>
                 </a>
-                <a href="https://web.facebook.com/tanjona.rajoelison.9" target='blank' 
+                <a href="https://web.facebook.com/tanjona.rajoelison.9" target='_blank' rel="nofollow" 
                 className='flex items-center gap-2 text-lg'>
                     <FaFacebookSquare size={30} className='text-teal-100'/>
                 </a>
-                <a href="https://www.instagram.com/tanjonarajoelison/" target='blank' 
+                <a href="https://www.instagram.com/tanjonarajoelison/" target='_blank' rel="nofollow" 
                 className='flex items-center gap-2 text-lg'>
                     <FaInstagram size={30} className='text-teal-100'/>
                 </a>

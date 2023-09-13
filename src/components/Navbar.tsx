@@ -48,10 +48,10 @@ const Navbar: FC<NavbarProps> = ({}) => {
                     </Link>
                 </div>
                 <div className='flex lg:hidden justify-start gap-2 items-center'>
-                    <a href='https://www.linkedin.com/in/tanjona-rajoelison-19b04524b' target='blank'>
+                    <a href='https://www.linkedin.com/in/tanjona-rajoelison-19b04524b' target='_blank' rel="nofollow">
                         <FaLinkedin className='text-2xl m-2 text-blue-700'/>
                     </a>
-                    <a href='https://github.com/tanjona81' target='blank'>
+                    <a href='https://github.com/tanjona81' target='_blank' rel="nofollow">
                     <FaGithub className='text-2xl m-2'/>
                     </a>
                     <Link to='contact'smooth={true} duration={500} name='side_contact'>

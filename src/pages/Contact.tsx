@@ -29,7 +29,7 @@ const Contact: FC<ContactProps> = ({}) => {
                 bg-slate-900 text-slate-200 gap-5'>
                     <div className='flex flex-col border-4 border-amber-500 rounded-3xl p-4 gap-3 w-full justify-center items-center'>
                         <span className='text-2xl text-center'>Check My Profile</span>
-                        <a href="https://www.linkedin.com/in/tanjona-rajoelison-19b04524b" target='blank' 
+                        <a href="https://www.linkedin.com/in/tanjona-rajoelison-19b04524b" target='_blank' rel="nofollow" 
                         className='flex items-center gap-2 text-lg'>
                             <span className='flex justify-center items-center hover:scale-110 duration-300 gap-2 
                             hover:text-amber-500 hover:ease-in'>
@@ -37,7 +37,7 @@ const Contact: FC<ContactProps> = ({}) => {
                                 Tanjona Rajoelison
                             </span>
                         </a>
-                        <a href="https://github.com/tanjona81" target='blank' className='flex items-center gap-2 text-lg'>
+                        <a href="https://github.com/tanjona81" target='_blank' rel="nofollow" className='flex items-center gap-2 text-lg'>
                             <span className='flex justify-center items-center hover:scale-110 duration-300 gap-2 
                             hover:text-amber-500 hover:ease-in'>
                                 <BsGithub/>
@@ -51,7 +51,7 @@ const Contact: FC<ContactProps> = ({}) => {
                             <BsWhatsapp/>
                             +261 34 37 413 10
                         </span>
-                        <a href="https://web.facebook.com/tanjona.rajoelison.9" target='blank' 
+                        <a href="https://web.facebook.com/tanjona.rajoelison.9" target='_blank' rel="nofollow" 
                         className='flex items-center gap-2 text-lg'>
                             <span className='flex justify-center items-center hover:scale-110 duration-300 gap-2 
                             hover:text-amber-500 hover:ease-in'>
@@ -59,7 +59,7 @@ const Contact: FC<ContactProps> = ({}) => {
                                 Tanjona Rajoelison
                             </span>
                         </a>
-                        <a href="https://www.instagram.com/tanjonarajoelison/" target='blank' 
+                        <a href="https://www.instagram.com/tanjonarajoelison/" target='_blank' rel="nofollow" 
                         className='flex items-center gap-2 text-lg'>
                             <span className='flex justify-center items-center hover:scale-110 duration-300 gap-2 
                             hover:text-amber-500 hover:ease-in'>

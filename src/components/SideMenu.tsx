@@ -30,7 +30,7 @@ const SideMenu: FC<SideMenuProps> = ({}) => {
                         <a
                         className='flex justify-between items-center w-full text-gray-300'
                         href='https://www.linkedin.com/in/tanjona-rajoelison-19b04524b'
-                        target='blank'
+                        target='_blank' rel="nofollow"
                         >
                             Linkedin <FaLinkedin size={30} />
                         </a>
@@ -41,7 +41,7 @@ const SideMenu: FC<SideMenuProps> = ({}) => {
                         <a
                         className='flex justify-between items-center w-full text-gray-300'
                         href='https://github.com/tanjona81'
-                        target='blank'
+                        target='_blank' rel="nofollow"
                         >
                             Github <FaGithub size={30} />
                         </a>
