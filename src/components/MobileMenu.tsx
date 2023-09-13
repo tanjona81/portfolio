@@ -89,7 +89,7 @@ const MobileMenu: FC<MobileMenuProps> = ({}) => {
 
   const list = (anchor: Anchor) => (
     <Box
-      className='bg-slate-900 h-screen'
+      className='flex flex-col gap-4 justify-center bg-slate-900 h-screen z-50'
       sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
       role="Mobile menu"
       onClick={toggleDrawer(anchor, false)}
