@@ -1,7 +1,8 @@
 # My portfolio
 
-This is my portfolio website.
+My name is Tanjona Rjoelison and this is my portfolio website.
 Feel free to check the code but please try to not modify anything.
+
 Thank you for your comprehension and your attention.
 
 ## Link
