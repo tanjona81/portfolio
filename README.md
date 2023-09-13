@@ -9,7 +9,7 @@ Thank you for your comprehension and your attention.
 
 ## Link
 
-This is the link of my portfolio website: https://tanjona-portfolio-ifvgumn97-tanjona81.vercel.app/
+This is the link of my portfolio website: https://tanjona-portfolio.vercel.app/
 
 ## My contact
 
