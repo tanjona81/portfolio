@@ -47,10 +47,14 @@ const Contact: FC<ContactProps> = ({}) => {
                     </div>
                     <div className='flex flex-col border-4 border-amber-500 rounded-3xl p-4 gap-3 w-full justify-center items-center'>
                         <span className='text-2xl text-center'>Text Me</span>
-                        <span className='flex justify-center items-center gap-2'>
+                        <a href="https://api.whatsapp.com/send?phone=%2B261343741310"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className='flex justify-center items-center gap-2 hover:scale-110 duration-300 gap-2 
+                        hover:text-amber-500 hover:ease-in'>
                             <BsWhatsapp/>
                             +261 34 37 413 10
-                        </span>
+                        </a>
                         <a href="https://web.facebook.com/tanjona.rajoelison.9" target='_blank' rel="nofollow" 
                         className='flex items-center gap-2 text-lg'>
                             <span className='flex justify-center items-center hover:scale-110 duration-300 gap-2 
@@ -67,10 +71,11 @@ const Contact: FC<ContactProps> = ({}) => {
                                 tanjonarajoelison
                             </span>
                         </a>
-                        <p className='flex items-center gap-2 text-lg'>
+                        <a href='mailto:trajoelison81@gmail.com' className='flex items-center gap-2 text-lg
+                        hover:scale-110 duration-300 gap-2 hover:text-amber-500 hover:ease-in'>
                             <AiOutlineMail/>
                             trajoelison81@gmail.com
-                        </p>
+                        </a>
                     </div>
                     <div className='flex flex-col border-4 border-amber-500 rounded-3xl p-4 gap-3 w-full'>
                         <span className='text-2xl text-center'>Call Me</span>

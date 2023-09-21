@@ -54,9 +54,10 @@ const Navbar: FC<NavbarProps> = ({}) => {
                     <a href='https://github.com/tanjona81' target='_blank' rel="nofollow">
                     <FaGithub className='text-2xl m-2'/>
                     </a>
-                    <Link to='contact'smooth={true} duration={500} name='side_contact'>
+                    {/* <Link to='contact'smooth={true} duration={500} name='side_contact'> */}
+                    <a href='mailto:trajoelison81@gmail.com'>
                         <HiOutlineMail className='text-3xl m-2'/>
-                    </Link>
+                    </a>
                     <BsFillTelephoneFill className='text-2xl m-2 text-green-600' onClick={()=>(handlePhoneIconClick())}/>
                 </div>
                 <MobileMenu/>

@@ -56,13 +56,17 @@ const SideMenu: FC<SideMenuProps> = ({}) => {
                     </Social_menu>
                 </li>
                 <li>
-                    <Link to='contact'smooth={true} duration={500}>
+                    {/* <Link to='contact'smooth={true} duration={500}> */}
                         <Social_menu color='bg-[#565f69]'>
-                            <button className='flex justify-between items-center w-full text-gray-300' name='b_contact'>
+                            {/* <button className='flex justify-between items-center w-full text-gray-300' name='b_contact'>
                                 Contact me <HiOutlineMail size={30} />
-                            </button>
+                            </button> */}
+                            <a href='mailto:trajoelison81@gmail.com'
+                            className='flex justify-between items-center w-full text-gray-300'>
+                                Contaxt me <HiOutlineMail size={30} />
+                            </a>
                         </Social_menu>
-                    </Link>
+                    {/* </Link> */}
                 </li>
                 </ul>
             </div>
