@@ -51,6 +51,14 @@ const Resume: FC<ResumeProps> = ({}) => {
                         </button>
                         <p className='font-light'>INSTAT Madagascar</p>
                     </section>
+                    <section className='gap-2'>
+                        <p className='font-light'>NOV. 2023 - NOW</p>
+                        <button className='text-slate-900 text-lg'
+                        onClick={handleClickOpen('paper')} name='open'>
+                            FullStack Developer
+                        </button>
+                        <p className='font-light'>Freelance</p>
+                    </section>
                     <Dialog
                         open={open}
                         onClose={handleClose}

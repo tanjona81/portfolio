@@ -20,7 +20,7 @@ export default function Skills(){
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <AiFillCheckCircle className='opacity-0'/>
-                                    <span className='text-slate-300 font-light'>Intermediate</span>
+                                    <span className='text-slate-300 font-light'>Advanced</span>
                                 </div>
                             </div>
                             <div className='flex flex-col'>
@@ -62,7 +62,7 @@ export default function Skills(){
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <AiFillCheckCircle className='opacity-0'/>
-                                    <span className='text-slate-300 font-light'>Intermediate</span>
+                                    <span className='text-slate-300 font-light'>Advanced</span>
                                 </div>
                             </div>
                             <div className='flex flex-col'>
@@ -92,7 +92,7 @@ export default function Skills(){
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <AiFillCheckCircle className='opacity-0'/>
-                                    <span className='text-slate-300 font-light'>Intermediate</span>
+                                    <span className='text-slate-300 font-light'>Advanced</span>
                                 </div>
                             </div>
                             <div className='flex flex-col'>
@@ -102,7 +102,7 @@ export default function Skills(){
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <AiFillCheckCircle className='opacity-0'/>
-                                    <span className='text-slate-300 font-light'>Intermediate</span>
+                                    <span className='text-slate-300 font-light'>Advanced</span>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ export default function Skills(){
                                 </div>
                                 <div className='flex items-center gap-2'>
                                     <AiFillCheckCircle className='opacity-0'/>
-                                    <span className='text-slate-300 font-light'>Intermediate</span>
+                                    <span className='text-slate-300 font-light'>Advanced</span>
                                 </div>
                             </div>
                             <div className='flex flex-col'>
@@ -145,7 +145,7 @@ export default function Skills(){
                                     <span className='text-slate-300 font-light'>Intermediate</span>
                                 </div>
                             </div>
-                            <div className='flex flex-col'>
+                            {/* <div className='flex flex-col'>
                                 <div className='flex items-center gap-2'>
                                     <AiFillCheckCircle className='text-slate-100'/>
                                     <span className='text-slate-100'>Ionic</span>
@@ -154,7 +154,7 @@ export default function Skills(){
                                     <AiFillCheckCircle className='opacity-0'/>
                                     <span className='text-slate-300 font-light'>Intermediate</span>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className='flex gap-4 flex-col'>
                             <div className='flex flex-col'>
